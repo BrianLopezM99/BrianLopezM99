@@ -13,8 +13,6 @@
 
 - 💬 Ask me about **Flutter, Mobile, Frontend or Backend :)**
 
-- 📫 How to reach me **brianlopezmedina12@gmail.com**
-
 - 📄 Know about my experiences (CV) [https://drive.google.com/file/d/1jmII14VEOuMJWJnqGoG9sbYpdjDPABO7/view?usp=sharing](https://drive.google.com/file/d/1jmII14VEOuMJWJnqGoG9sbYpdjDPABO7/view?usp=sharing)
 
 <h3 align="left">Connect with me:</h3>
