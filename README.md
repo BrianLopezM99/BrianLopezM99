@@ -56,8 +56,16 @@
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
   </a>
+  <a href="https://nextjs.org/" target="_blank" rel="noreferrer">
+    <img src="https://www.drupal.org/files/project-images/nextjs-icon-dark-background.png" alt="NextJS" width="40" height="40"/>
+  </a>
+  <a href="https://expo.dev/" target="_blank" rel="noreferrer">
+    <img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*em2XHNcs3cB1fBkd1TF1bQ.png" alt="Expo CLI" width="40" height="40"/>
+  </a>
+  <a href="https://es.react.dev/" target="_blank" rel="noreferrer">
+    <img src="https://static-00.iconduck.com/assets.00/react-original-wordmark-icon-1679x2048-hjal07w8.png" alt="React" width="40" height="40"/>
+  </a>
 </p>
-
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=brianlopezm99&show_icons=true&locale=en&layout=compact" alt="brianlopezm99" /></p>
 
