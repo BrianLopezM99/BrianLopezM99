@@ -44,7 +44,7 @@
   <a href="https://nmap.org" target="_blank" rel="noreferrer">
     <img src="https://cdn-icons-png.flaticon.com/512/822/822102.png" alt="nmap" width="40" height="40"/>
   </a>
-  <a href="https://owasp.org/www-project-red-team-toolkit/" target="_blank" rel="noreferrer">
+  <a href="https://www.kali.org/" target="_blank" rel="noreferrer">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Kali-dragon-icon.svg/512px-Kali-dragon-icon.svg.png" alt="redteam" width="40" height="40"/>
   </a>
   <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noreferrer">
