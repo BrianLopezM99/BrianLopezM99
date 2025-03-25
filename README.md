@@ -11,7 +11,7 @@
 
 - 📝 I regularly write articles on my linkedin [https://www.linkedin.com/in/brian-lm/](https://www.linkedin.com/in/brian-lm/)
 
-- 📄 Know about my experiences (CV) [https://drive.google.com/file/d/1jmII14VEOuMJWJnqGoG9sbYpdjDPABO7/view?usp=sharing](https://drive.google.com/file/d/1jmII14VEOuMJWJnqGoG9sbYpdjDPABO7/view?usp=sharing)
+- 📄 Know about my experiences (CV) [https://drive.google.com/file/d/1Dk6nMyAuSegeCs3REkPRZaVntE8iiWvX/view?usp=sharing](https://drive.google.com/file/d/1Dk6nMyAuSegeCs3REkPRZaVntE8iiWvX/view?usp=sharing)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
