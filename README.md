@@ -13,7 +13,7 @@
 
 - 📝 I regularly write articles on my linkedin [https://www.linkedin.com/in/brian-lm/](https://www.linkedin.com/in/brian-lm/)
 
-- 📄 Know about my experiences (CV) [https://drive.google.com/file/d/19nT22c7WoGjuGmtNcKzFk7EGdFDtqr3w/view?usp=drive_link](https://drive.google.com/file/d/19nT22c7WoGjuGmtNcKzFk7EGdFDtqr3w/view?usp=drive_link)
+- 📄 Know about my experiences (Website & CV) [Brian Lopez Site]([https://drive.google.com/file/d/19nT22c7WoGjuGmtNcKzFk7EGdFDtqr3w/view?usp=drive_link](https://brianmedinadev.netlify.app/))
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
