@@ -1,11 +1,13 @@
 <h1 align="center">Hi 👋, I'm Brian Lopez</h1>
-<h3 align="center">Software Engineer from Mexico 🇲🇽</h3>
+<h3 align="center">Software Engineer % Pentester from Mexico 🇲🇽</h3>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=brianlopezm99" alt="brianlopezm99" /></a> </p>
 
-- 🔭 I’m currently working on Mobile/Videogame Development
+- 🔭 I’m currently working on Frontend/Pentesting
 
-- 🌱 I’m currently study for **eJPT Certification**
+- 🌱 I’m currently study for **OSCP (Offensive Security Certified Professional)**
+
+- eJPT certification passed 🔥 Link here -> eJPT [eLearnSecurity Junior Penetration Tester](https://certs.ine.com/d780244c-b95e-401f-8795-14d4d44f7355#acc.bmktZQau)
 
 - 📦 My **Hack The Box Account** Username: **BrianM**, Range: **Hacker** road to **Pro Hacker**
 
