@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Brian Lopez</h1>
-<h3 align="center">Software Engineer % Pentester from Mexico 🇲🇽</h3>
+<h3 align="center">Software Engineer & Pentester from Mexico 🇲🇽</h3>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=brianlopezm99" alt="brianlopezm99" /></a> </p>
 
