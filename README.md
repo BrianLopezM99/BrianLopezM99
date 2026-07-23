@@ -3,7 +3,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=brianlopezm99" alt="brianlopezm99" /></a> </p>
 
-- 🔭 I’m currently working on Frontend/Pentesting
+- 🔭 I’m currently working on AI Engineer
 
 - 🌱 I’m currently study for **OSCP (Offensive Security Certified Professional)**
 
