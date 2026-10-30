@@ -23,6 +23,7 @@ class BrianLopez:
     offensive = ["Malware development", "AV evasion", "Process injection",
                  "DLL hijacking", "Reverse engineering (Ghidra)",
                  "Full attack chains"]
+    arsenal   = ["C/C++", "Ghidra", "x64dbg", "Metasploit", "Sliver C2"]
     lab       = "Home lab where I build and run complete attacks, end to end"
     studying  = "OSCP — Offensive Security Certified Professional"
     certs     = ["eJPT — eLearnSecurity Junior Penetration Tester"]
@@ -44,7 +45,7 @@ class BrianLopez:
 
 ## `$ ./lab --run killchain`
 
-<img src="assets/killchain.svg" width="100%" alt="Home lab attack chain: recon, access, payload, evasion, injection, hijack, SYSTEM" />
+<img src="assets/killchain.svg" width="100%" alt="Home lab attack chain: recon, access, payload, evasion, injection, hijack, C2, SYSTEM" />
 
 I build complete attacks in my home lab, from the first scan to full control of the target, and take binaries apart to understand how they really work.
 
@@ -52,11 +53,12 @@ I build complete attacks in my home lab, from the first scan to full control of 
 | --- | --- | --- |
 | 🔍 **Recon** | OSINT, network and service enumeration | [T1595](https://attack.mitre.org/techniques/T1595/) · [T1593](https://attack.mitre.org/techniques/T1593/) |
 | 🚪 **Initial access** | Web exploitation (CVE-2025-55182) and HID keystroke-injection attacks with a Raspberry Pi Zero | [T1190](https://attack.mitre.org/techniques/T1190/) · [T1200](https://attack.mitre.org/techniques/T1200/) |
-| 🧪 **Weaponization** | Custom, controlled malware written from scratch | [T1587.001](https://attack.mitre.org/techniques/T1587/001/) |
+| 🧪 **Weaponization** | Custom, controlled malware written from scratch in C/C++ | [T1587.001](https://attack.mitre.org/techniques/T1587/001/) |
 | 🥷 **Defense evasion** | Antivirus evasion and payload obfuscation | [T1027](https://attack.mitre.org/techniques/T1027/) |
 | 💉 **Process injection** | Running code inside other processes | [T1055](https://attack.mitre.org/techniques/T1055/) |
 | 🪝 **DLL hijacking** | Hijacking execution flow through DLL loading | [T1574.001](https://attack.mitre.org/techniques/T1574/001/) |
-| 🔬 **Reverse engineering** | Static analysis and decompilation of binaries with Ghidra | — |
+| 📡 **Command & control** | Operating implants with Sliver C2 and Metasploit | [TA0011](https://attack.mitre.org/tactics/TA0011/) · [T1071](https://attack.mitre.org/techniques/T1071/) |
+| 🔬 **Reverse engineering** | Static and dynamic analysis of binaries with Ghidra and x64dbg | — |
 
 > [!NOTE]
 > Everything offensive here lives in my own isolated lab: my machines, my VMs, my targets. It's research to learn how real attacks work and how to defend against them.
@@ -106,6 +108,9 @@ I build complete attacks in my home lab, from the first scan to full control of 
 
 <p>
   <img src="https://img.shields.io/badge/Ghidra-C8102E?style=for-the-badge" alt="Ghidra" />
+  <img src="https://img.shields.io/badge/x64dbg-2B5797?style=for-the-badge" alt="x64dbg" />
+  <img src="https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white" alt="Metasploit" />
+  <img src="https://img.shields.io/badge/Sliver_C2-5C2D91?style=for-the-badge" alt="Sliver C2" />
   <img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white" alt="Burp Suite" />
   <img src="https://img.shields.io/badge/Nmap-0E83CD?style=for-the-badge&logo=gnubash&logoColor=white" alt="Nmap" />
   <img src="https://img.shields.io/badge/Hack_The_Box-111927?style=for-the-badge&logo=hackthebox&logoColor=9FEF00" alt="Hack The Box" />
@@ -120,7 +125,7 @@ I build complete attacks in my home lab, from the first scan to full control of 
 
 **Languages**
 
-<img src="https://skillicons.dev/icons?i=python,bash,ts,js,dart,kotlin,php&perline=10" alt="Python, Bash, TypeScript, JavaScript, Dart, Kotlin, PHP" />
+<img src="https://skillicons.dev/icons?i=c,cpp,python,bash,ts,js,dart,kotlin,php&perline=10" alt="C, C++, Python, Bash, TypeScript, JavaScript, Dart, Kotlin, PHP" />
 
 **Frameworks & Backend**
 
