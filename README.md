@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/header.svg" width="100%" alt="Brian López Medina — AI Engineer, Pentester and Software Engineer" />
+<img src="assets/header.svg" width="100%" alt="Brian López Medina — Pentester, Red Teamer, Reverse Engineer and AI Engineer" />
 
 <br />
 
@@ -17,12 +17,18 @@
 
 ```python
 class BrianLopez:
-    roles     = ["AI Engineer", "Pentester", "Software Engineer"]
+    roles     = ["Pentester", "Red Teamer", "Reverse Engineer",
+                 "AI Engineer", "Software Engineer"]
     location  = "Durango, Mexico 🇲🇽"
-    building  = "AI-powered products and agents"
+    offensive = ["Malware development", "AV evasion", "Process injection",
+                 "DLL hijacking", "Reverse engineering (Ghidra)",
+                 "Full attack chains"]
+    arsenal   = ["C/C++", "Ghidra", "x64dbg", "Metasploit", "Sliver C2"]
+    lab       = "Home lab where I build and run complete attacks, end to end"
     studying  = "OSCP — Offensive Security Certified Professional"
     certs     = ["eJPT — eLearnSecurity Junior Penetration Tester"]
     htb       = {"user": "BrianM", "rank": "Hacker", "next": "Pro Hacker"}
+    building  = "AI-powered products and agents"
     writes_on = "linkedin.com/in/brian-lm"
 
     def motto(self):
@@ -37,7 +43,27 @@ class BrianLopez:
   <img src="https://img.shields.io/badge/HTB_Rank-Hacker_→_Pro_Hacker-9FEF00?style=for-the-badge&logo=hackthebox&logoColor=9FEF00&labelColor=0D1420" alt="Hack The Box rank: Hacker, road to Pro Hacker" />
 </p>
 
-## `$ ls ~/projects --featured`
+## `$ ./lab --run killchain`
+
+<img src="assets/killchain.svg" width="100%" alt="Home lab attack chain: recon, access, payload, evasion, injection, hijack, C2, SYSTEM" />
+
+I build complete attacks in my home lab, from the first scan to full control of the target, and take binaries apart to understand how they really work.
+
+| Phase | What I do in the lab | MITRE ATT&CK |
+| --- | --- | --- |
+| 🔍 **Recon** | OSINT, network and service enumeration | [T1595](https://attack.mitre.org/techniques/T1595/) · [T1593](https://attack.mitre.org/techniques/T1593/) |
+| 🚪 **Initial access** | Web exploitation (CVE-2025-55182) and HID keystroke-injection attacks with a Raspberry Pi Zero | [T1190](https://attack.mitre.org/techniques/T1190/) · [T1200](https://attack.mitre.org/techniques/T1200/) |
+| 🧪 **Weaponization** | Custom, controlled malware written from scratch in C/C++ | [T1587.001](https://attack.mitre.org/techniques/T1587/001/) |
+| 🥷 **Defense evasion** | Antivirus evasion and payload obfuscation | [T1027](https://attack.mitre.org/techniques/T1027/) |
+| 💉 **Process injection** | Running code inside other processes | [T1055](https://attack.mitre.org/techniques/T1055/) |
+| 🪝 **DLL hijacking** | Hijacking execution flow through DLL loading | [T1574.001](https://attack.mitre.org/techniques/T1574/001/) |
+| 📡 **Command & control** | Operating implants with Sliver C2 and Metasploit | [TA0011](https://attack.mitre.org/tactics/TA0011/) · [T1071](https://attack.mitre.org/techniques/T1071/) |
+| 🔬 **Reverse engineering** | Static and dynamic analysis of binaries with Ghidra and x64dbg | — |
+
+> [!NOTE]
+> Everything offensive here lives in my own isolated lab: my machines, my VMs, my targets. It's research to learn how real attacks work and how to defend against them.
+
+## `$ ls ~/arsenal --featured`
 
 <table>
   <tr>
@@ -46,7 +72,7 @@ class BrianLopez:
       Exploitation tool for the Next.js vulnerability that allows remote command execution through prototype poisoning in React Server Components.
       <br /><br />
       <img src="https://img.shields.io/badge/Python-0D1420?style=flat-square&logo=python&logoColor=FFD43B" alt="Python" />
-      <img src="https://img.shields.io/badge/Offensive_Security-0D1420?style=flat-square&logo=hackthebox&logoColor=9FEF00" alt="Offensive Security" />
+      <img src="https://img.shields.io/badge/RCE_Exploit-0D1420?style=flat-square&logo=hackthebox&logoColor=9FEF00" alt="RCE exploit" />
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/BrianLopezM99/raspberry-zero-HID-Keyboard-Emulation-Attack">⌨️ Pi Zero HID Attack</a></h3>
@@ -76,24 +102,34 @@ class BrianLopez:
 
 ## `$ which --all stack`
 
-**Languages**
+**Offensive Security & Reverse Engineering**
 
-<img src="https://skillicons.dev/icons?i=python,ts,js,dart,kotlin,php,bash&perline=10" alt="Python, TypeScript, JavaScript, Dart, Kotlin, PHP, Bash" />
-
-**Frameworks & Backend**
-
-<img src="https://skillicons.dev/icons?i=flutter,react,nextjs,nodejs,flask,fastapi,laravel,supabase,mongodb,html,css&perline=11" alt="Flutter, React, Next.js, Node.js, Flask, FastAPI, Laravel, Supabase, MongoDB, HTML, CSS" />
-
-**Offensive Security**
-
-<img src="https://skillicons.dev/icons?i=kali,linux,raspberrypi,git&perline=10" alt="Kali Linux, Linux, Raspberry Pi, Git" />
+<img src="https://skillicons.dev/icons?i=kali,linux,windows,raspberrypi&perline=10" alt="Kali Linux, Linux, Windows, Raspberry Pi" />
 
 <p>
+  <img src="https://img.shields.io/badge/Ghidra-C8102E?style=for-the-badge" alt="Ghidra" />
+  <img src="https://img.shields.io/badge/x64dbg-2B5797?style=for-the-badge" alt="x64dbg" />
+  <img src="https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white" alt="Metasploit" />
+  <img src="https://img.shields.io/badge/Sliver_C2-5C2D91?style=for-the-badge" alt="Sliver C2" />
   <img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white" alt="Burp Suite" />
   <img src="https://img.shields.io/badge/Nmap-0E83CD?style=for-the-badge&logo=gnubash&logoColor=white" alt="Nmap" />
   <img src="https://img.shields.io/badge/Hack_The_Box-111927?style=for-the-badge&logo=hackthebox&logoColor=9FEF00" alt="Hack The Box" />
   <img src="https://img.shields.io/badge/OSINT-111927?style=for-the-badge&logo=searxng&logoColor=22D3EE" alt="OSINT" />
 </p>
+<p>
+  <img src="https://img.shields.io/badge/Malware_Dev-111927?style=for-the-badge" alt="Malware development" />
+  <img src="https://img.shields.io/badge/AV_Evasion-111927?style=for-the-badge" alt="AV evasion" />
+  <img src="https://img.shields.io/badge/Process_Injection-111927?style=for-the-badge" alt="Process injection" />
+  <img src="https://img.shields.io/badge/DLL_Hijacking-111927?style=for-the-badge" alt="DLL hijacking" />
+</p>
+
+**Languages**
+
+<img src="https://skillicons.dev/icons?i=c,cpp,python,bash,ts,js,dart,kotlin,php&perline=10" alt="C, C++, Python, Bash, TypeScript, JavaScript, Dart, Kotlin, PHP" />
+
+**Frameworks & Backend**
+
+<img src="https://skillicons.dev/icons?i=flutter,react,nextjs,nodejs,flask,fastapi,laravel,supabase,mongodb,html,css,git&perline=12" alt="Flutter, React, Next.js, Node.js, Flask, FastAPI, Laravel, Supabase, MongoDB, HTML, CSS, Git" />
 
 ## `$ git log --stats`
 
