@@ -13,27 +13,9 @@
 
 <br />
 
-## `$ cat about.py`
+## `$ whoami --verbose`
 
-```python
-class BrianLopez:
-    roles     = ["Pentester", "Red Teamer", "Reverse Engineer",
-                 "AI Engineer", "Software Engineer"]
-    location  = "Durango, Mexico 🇲🇽"
-    offensive = ["Malware development", "AV evasion", "Process injection",
-                 "DLL hijacking", "Reverse engineering (Ghidra)",
-                 "Full attack chains"]
-    arsenal   = ["C/C++", "Ghidra", "x64dbg", "Metasploit", "Sliver C2"]
-    lab       = "Home lab where I build and run complete attacks, end to end"
-    studying  = "OSCP — Offensive Security Certified Professional"
-    certs     = ["eJPT — eLearnSecurity Junior Penetration Tester"]
-    htb       = {"user": "BrianM", "rank": "Hacker", "next": "Pro Hacker"}
-    building  = "AI-powered products and agents"
-    writes_on = "linkedin.com/in/brian-lm"
-
-    def motto(self):
-        return "Build it. Break it. Make it smarter."
-```
+<img src="assets/about.svg" width="100%" alt="About Brian: pentester, red teamer and reverse engineer. Malware development in C/C++, AV evasion, process injection and DLL hijacking. Ghidra, x64dbg, Sliver and Metasploit. eJPT passed, OSCP in progress, Hack The Box BrianM. Also AI and software engineer from Durango, Mexico." />
 
 ## `$ ./certs --verify`
 
